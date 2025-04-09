@@ -1,29 +1,59 @@
-body{
-    background-color: blueviolet;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+    background-color: #f3e5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h1{
+h1 {
     text-align: center;
     justify-content: center;
+    margin-bottom: 30px;
+    color: #6a1b9a;
 }
 
-.botao{
+h4 {
     text-align: center;
+    margin-top: 350px;
+    color: #6a1b9a;
 }
 
-button{
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
     font-size: 20px;
     padding: 10px 20px;
     margin: 10px;
     cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-#sim{
-    background-color: rgb(48, 189, 48);
+#sim {
+    background-color: #81c784;
+    color: white;
 }
 
-#nao{
-    background-color: rgb(212, 21, 21);
+#nao {
+    position: absolute;
+    background-color: #f48fb1;
+    color: white;
+    transition: top 0.3s, left 0.3s;
+}
+
+#onclick,
+p {
+    text-align: center;
+    color: #4a148c;
 }
